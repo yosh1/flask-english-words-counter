@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>English Word Counter</title>
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<header class="center">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+                <a class="navbar-brand " href="#">English Word Counter</a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<body>
+    <center>
+
+        <div class="form-group">
+            <form method="POST" action="/" class="mt-5 mb-5">
+                <textarea name="text" cols="100" rows="5" placeholder="Hello World!">{{input_words}}</textarea><br>
+                <input class="btn btn-primary col-1" name="text" type="submit" value="Count Words">
+
+            </form>
+            <h2>{{total_words}} words / {{total_sentences}} sentences</h2>
+
+        </div>
+    </center>
+
+
+</body>
+
+</html>
