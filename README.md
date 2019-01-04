@@ -1,2 +1,2 @@
-# flask-english-words-counter
+# Flask English words counter
 This is Flask application that is able to count words and sentences.
