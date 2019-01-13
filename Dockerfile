@@ -10,7 +10,7 @@ RUN apk update && \
     apk add fish \
             vim  \
             git  \
-            bash &&
+            bash && \
     pip3 install --upgrade pip && \
     pip3 install -r requirements.txt
 
